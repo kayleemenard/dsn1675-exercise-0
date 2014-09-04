@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	font-family: sans-serif;
+	font-size: 1rem;
+	line-height: 1.5rem;
+
+	padding: 2% 10%;
+
+	background-color: #D8D8D8;
+}
+
+body {
+	margin: 0;
+	padding: 1rem;
+
+	border-radius: 15px;
+
+	background-color: white;
+}
+
+h1 {
+	margin: 0;
+	padding: 0 0 5% 0;
+
+	font-size: 1.25rem;
+	color: #990033;
+}
+
+article {
+	font-family: sans-serif;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	width: 100%;
+}
+
+figcaption {
+	font-size: 0.75rem;
+
+	padding: 0;
+	margin: 0;
+
+	background-color: #f0f0f0;
+
+	border-top: 1px solid #c0c0c0;
+	border-bottom: 1px solid #c0c0c0;
+	overflow: hidden;
+}
+
+p {
+
+}
+
+blockquote {
+	font-family: Georgia, Times, serif; 
+
+	padding: 0;
+	margin: 0;
+
+	background-color: #f0f0f0;
+
+	border-top: 1px solid #c0c0c0;
+	border-bottom: 1px solid #c0c0c0;
+
+	overflow: hidden;
+}
+
+blockquote footer {
+	text-align: right;
+}
+
+h2 {
+	font-size: 1rem;
+	font-style: bold;
+	color: #990033;
+}
+
+ol {
+
+}
+
+.nutri-info {
+	background-color: #f0f0f0;
+
+	border-top: 1px solid #c0c0c0;
+	border-bottom: 1px solid #c0c0c0;
+	overflow: hidden;
+}
+
+dl {
+
+	/*
+	This is a clearfix
+	It reminds the <dl> to wrap around all it's floated children
+	*/
+	overflow: hidden;
+}
+
+dt {
+	float: left;
+	clear: left;
+	width: 8rem;
+}
+
+dd {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+
+	text-align: left;
+
+	color: #990033;
+}
+
+footer {
+	font-size: 0.75rem;
+}
+
+a {
+	color: #990033;
+}
+
