@@ -18,7 +18,7 @@ html {
 
 body {
 	margin: 0;
-	padding: 1rem;
+	padding: 0;
 
 	border-radius: 15px;
 
@@ -27,10 +27,12 @@ body {
 
 h1 {
 	margin: 0;
-	padding: 0 0 5% 0;
+	padding: 4%;
 
 	font-size: 1.25rem;
 	color: #990033;
+
+	border-bottom: 1px solid #c0c0c0;
 }
 
 article {
@@ -49,7 +51,7 @@ img {
 figcaption {
 	font-size: 0.75rem;
 
-	padding: 0;
+	padding: 4%;
 	margin: 0;
 
 	background-color: #f0f0f0;
@@ -60,13 +62,13 @@ figcaption {
 }
 
 p {
-
+	padding: 4%;
 }
 
 blockquote {
 	font-family: Georgia, Times, serif; 
 
-	padding: 0;
+	padding: 4% 4% 0 0;
 	margin: 0;
 
 	background-color: #f0f0f0;
@@ -78,10 +80,15 @@ blockquote {
 }
 
 blockquote footer {
+	padding: 0 0 4% 0;
+
 	text-align: right;
+	color: black;
 }
 
 h2 {
+	padding: 4% 0 0 4%;
+
 	font-size: 1rem;
 	font-style: bold;
 	color: #990033;
@@ -100,7 +107,7 @@ ol {
 }
 
 dl {
-
+	padding: 0 4%;
 	/*
 	This is a clearfix
 	It reminds the <dl> to wrap around all it's floated children
@@ -109,6 +116,7 @@ dl {
 }
 
 dt {
+
 	float: left;
 	clear: left;
 	width: 8rem;
@@ -121,6 +129,8 @@ dd {
 }
 
 ul {
+	padding: 0 4%;
+
 	list-style: none;
 
 	text-align: left;
@@ -129,7 +139,10 @@ ul {
 }
 
 footer {
+	padding: 0 4% 5px 4%;
+
 	font-size: 0.75rem;
+	color: gray;
 }
 
 a {
